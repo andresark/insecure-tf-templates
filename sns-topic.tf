@@ -8,3 +8,4 @@ resource "aws_sns_topic_subscription" "account_email" {
   protocol  = "email"
   topic_arn = aws_sns_topic.cloudwatch_alarm.arn
 }
+# test
