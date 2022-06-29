@@ -19,7 +19,7 @@ resource "aws_s3_bucket_public_access_block" "state_terraform_s3" {
   ignore_public_acls      = false
 }
 
-# allow some users only
+# allow some users only - random change
 data "aws_iam_policy_document" "state_terraform_s3" {
 
   statement {
